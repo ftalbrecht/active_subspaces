@@ -1,7 +1,7 @@
 """Utilities for exploiting active subspaces when estimating integrals."""
 
 import numpy as np
-from . import utils.quadrature as gq
+from .utils import quadrature as gq
 from .utils.misc import conditional_expectations
 from .utils.designs import maximin_design
 from .utils.simrunners import SimulationRunner

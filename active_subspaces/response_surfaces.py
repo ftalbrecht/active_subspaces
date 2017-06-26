@@ -1,6 +1,6 @@
 """Utilities for exploiting active subspaces in response surfaces."""
 import numpy as np
-from . import utils.designs as dn
+from .utils import designs as dn
 from .utils.simrunners import SimulationRunner
 from .utils.misc import conditional_expectations
 from .utils.response_surfaces import RadialBasisApproximation
