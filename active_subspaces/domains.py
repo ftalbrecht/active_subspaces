@@ -116,7 +116,7 @@ class BoundedActiveVariableDomain(ActiveVariableDomain):
             convhull = None
             constraints = None
         else:
-	    Y, X = zonotope_vertices(W1)
+            Y, X = zonotope_vertices(W1)
             convhull = ConvexHull(Y)
             A = convhull.equations[:,:n]
             b = convhull.equations[:,n]
